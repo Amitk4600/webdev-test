@@ -1,0 +1,43 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+form {
+  position: relative;
+  left: 25rem;
+  top: 5rem;
+  background-color: rgb(230, 211, 186);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid wheat;
+  width: 650px;
+  height: 700px;
+  border-radius: 6px;
+}
+.basic-validation {
+  display: flex;
+  flex-direction: column;
+}
+label{
+    font-size: 1.25rem;
+
+}
+input{
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 5px;
+}
+button{
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+    color: darkcyan;
+    background-color: rgb(178, 186, 187);
+    opacity: 0.5;
+}

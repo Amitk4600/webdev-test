@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <title>Form</title>
+  </head>
+  <body>
+    <form>
+      <div class="basic-validation">
+        <label for="name">Name</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter your name"
+          required
+        />
+        <label for="email">Email</label>
+        <input type="email" name="" id="email" placeholder="email" required />
+
+        <label for="pass">password</label>
+        <input
+          type="password"
+          name="pass"
+          id="password"
+          placeholder="password"
+          required
+        />
+        <label for="phone">Phone Number</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="Enter your phone number"
+          required
+        />
+
+        <label for="age">Age</label>
+        <input
+          type="number"
+          id="age"
+          min="18"
+          placeholder="Enter your age"
+          required
+        />
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+          <option value="">Select your gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+
+        <label for="date">Dob</label>
+        <input type="date" name="" id="" />
+
+        <label for="color">Favorite color</label>
+        <input type="color" name="color" required />
+
+        <button class="submit-btn">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>

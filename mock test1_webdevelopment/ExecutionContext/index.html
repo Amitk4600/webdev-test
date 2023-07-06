@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Execution context</title>
+</head>
+
+<body>
+    <h1>Execution context</h1>
+    <p>An execution context is an internal JavaScript concept that defines the environment in which code is executed. It
+        contains all the necessary information for the JavaScript engine to execute code, including variables,
+        functions, scope chain, and the value of the `this` keyword.
+    <p>
+
+        When JavaScript code is executed, it is processed within execution contexts. Each execution context can be
+        associated with a specific scope and has a set of variables and functions accessible within that scope.
+    </p>
+    <p>
+
+        JavaScript has three types of execution contexts:
+    </p>
+    <p>
+        <strong>
+
+            1. Global Execution Context:
+        </strong>
+        - The default execution context in which the entire JavaScript code runs.
+        - It represents the global scope and is accessible throughout the entire code.
+        - In a browser, the global execution context is associated with the global object `window`, while in Node.js, it
+        is associated with the `global` object.
+        - Variables and functions declared in the global scope are accessible from other execution contexts.
+    </p>
+
+
+    <p><strong>
+
+            2. Function Execution Context:
+        </strong>
+        - Created whenever a function is called or invoked.
+        - Each function invocation has its own function execution context, which includes the function's arguments,
+        local variables, and a reference to its outer scope.
+        - The function execution context allows the function to maintain its own set of variables without interfering
+        with other functions or the global scope.
+        - When a function is invoked, a new function execution context is created and pushed onto the call stack.
+    </p>
+
+
+
+
+</body>
+
+</html>

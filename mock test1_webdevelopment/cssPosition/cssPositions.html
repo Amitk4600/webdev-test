@@ -1,0 +1,90 @@
+<!-- 
+    **static: The default position for all elements.
+
+   ** fixed: the element is positoned relative to the browser window, and it stays in the same position even the page is scrolled.
+
+   ** sticky: the element is positioned based on the user scroll position.
+
+   **relative: the element is positioned relative to its normal positions.It can be moved top,right, bottom, left .
+
+   ** absolute: the element is positioned relative to its nearest positiones ancester,if any; otherwise ,it is positioned to the initial containing block(usally the browser window) 
+
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css-position</title>
+    <style>
+      /* static */
+      .box {
+       position: static;
+       width: 250px;
+       height: 250px;
+       background-color:brown;
+      }
+      /* fixed */
+      .box1 {
+       position: static;
+       top: 50px;
+       left: 100px;
+       width: 250px;
+       height: 250px;
+       background-color:rgb(50, 165, 42);
+      }
+      /* sticky */
+      .box2 {
+       position: sticky;
+       top: 50px;
+       left: 100px;
+       width: 250px;
+       height: 250px;
+       background-color:rgb(58, 42, 165);
+      }
+      /* relative */
+      .box3 {
+       position: relative;
+       top: 50px;
+       left: 100px;
+       width: 250px;
+       height: 250px;
+       background-color:rgb(165, 73, 42);
+      }
+      /* absolute */
+      .container{
+        position: relative;
+        width: 350px;
+        height: 350px;
+        background-color: #5e5c5c;
+        top: 150px;
+      }
+      .box4 {
+       position: absolute;
+       top: 100px;
+       left: 100px;
+       width: 250px;
+       height: 250px;
+       background-color:rgb(140, 165, 42);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h1>static</h1>
+    </div>
+    <div class="box1">
+      <h1>fixed</h1>
+    </div>
+    <div class="box2">
+      <h1>  STICKY</h1>
+    </div>
+    <div class="box3">
+      <h1>Relative</h1>
+    </div>
+    <div class="container">
+    <div class="box4">
+      <h1>Absolute</h1>
+    </div>
+  </body>
+</html>

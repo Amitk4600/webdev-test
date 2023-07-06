@@ -1,0 +1,97 @@
+.gallery {
+  border: 1px solid skyblue;
+  width: 732px;
+  height: 570px;
+  margin: 150px;
+  background-color: rgb(145, 231, 231);
+}
+
+
+.left-section {
+  display: flex;
+
+  gap: 25px;
+  align-items: center;
+  margin: 15px;
+  padding: 5px;
+}
+.lt-sec{
+display: flex;
+flex-direction: row;
+gap: 30px;
+position: relative;
+top: 11px;
+}
+
+.left-first-frame {
+  background-image: url("./assets/bird-8041708_1280.webp");
+  width: 200px;
+  height: 212px;
+  border: 1px solid red;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.left-second-frame {
+  background-image: url("./assets/man-8004816_1280.webp");
+  width: 200px;
+  height: 212px;
+  border: 1px solid red;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.left-bottom-frame {
+  background-image: url("./assets/bird-8083971_1280.webp");
+  width: 430px;
+  height: 265px;
+  border: 1px solid red;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 430px;
+
+}
+.right-section{
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.rt-sec{display: flex;
+    flex-direction: column;
+    gap: 30px;
+position: absolute;
+right: 41rem;
+top: 11.35rem;
+   
+}
+.right-first-frame{
+    background-image: url("./assets/horse-4006848_1280.webp");
+    width: 220px;
+    height: 150px;
+    border: 1px solid red;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+.right-second-frame{
+    display: flex;
+    background-image: url("./assets/lancaster-8058337_640.jpg");
+    width: 220px;
+    height: 150px;
+    border: 1px solid red;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+.right-bottom-frame{
+    background-image: url("./assets/large-leaved-lupine-7312789_1280.jpg");
+    width: 220px;
+    height: 150px;
+    border: 1px solid red;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
